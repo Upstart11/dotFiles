@@ -129,6 +129,17 @@ else
     fi
 fi
 unset __conda_setup
+__conda_setup="$('/home/user/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/user/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/user/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/user/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
 # <<< conda initialize <<<
 alias startcomfy='python3 ~/ComfyUI/main.py --listen --port 8888'
 alias CheckCUIS='tmux attach-session -t comfy_session'
