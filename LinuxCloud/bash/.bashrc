@@ -142,6 +142,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Show aliases
+alias showaliases='~/Utils/show_aliases.sh'
+
 # genral aliases
 alias sai='sudo apt install'
 alias sau='sudo apt remove'
@@ -150,7 +153,7 @@ alias sapd='sudo apt update'
 alias sapg='sudo apt upgrade'
 
 
-alias cpconfs='./InstallScripts/ForVM/CopyConfigs.sh'
+alias cpconfs='~/InstallScripts/ForVM/CopyConfigs.sh'
 alias sbrc='source .bashrc'
 
 # git aliases
