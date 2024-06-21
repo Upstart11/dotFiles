@@ -142,5 +142,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 alias startcomfy='python3 ~/ComfyUI/main.py --listen --port 8888'
+alias startserver='python3 ~/APIRetranslators/main.py'
 alias CheckCUIS='tmux attach-session -t comfy_session'
 
