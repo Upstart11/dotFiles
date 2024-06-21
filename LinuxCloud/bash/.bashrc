@@ -150,7 +150,7 @@ alias sapd='sudo apt update'
 alias sapg='sudo apt upgrade'
 
 
-alias cpconfs='./InstallScripts/ForVM/CopyConfigs.sh'
+alias cpconfs='sudo ./InstallScripts/ForVM/CopyConfigs.sh'
 alias sbrc='source .bashrc'
 
 # git aliases
