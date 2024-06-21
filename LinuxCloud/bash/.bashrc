@@ -141,6 +141,22 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# genral aliases
+alias sai='sudo apt install'
+alias sau='sudo apt remove'
+alias sap='sudo apt-get purge'
+alias sapd='sudo apt update'
+alias sapg='sudo apt upgrade'
+
+alias sbrc='source .bashrc'
+
+# git aliases
+alias gpullo='git pull origin'
+alias gpullom='git pull origin main'
+alias gstash='git stash'
+
+# Server specific aliases
 alias startcomfy='python3 ~/ComfyUI/main.py --listen --port 8888'
 alias startserver='python3 ~/APIRetranslators/main.py'
 alias CheckCUIS='tmux attach-session -t comfy_session'
