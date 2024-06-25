@@ -156,6 +156,9 @@ alias sapg='sudo apt upgrade'
 alias cpconfs='~/InstallScripts/ForVM/CopyConfigs.sh'
 alias sbrc='source .bashrc'
 
+# btop
+alias btop='btop --utf-force'
+
 # git aliases
 alias gpullo='git pull origin'
 alias gpullom='git pull origin main'
