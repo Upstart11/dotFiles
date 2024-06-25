@@ -156,6 +156,7 @@ alias sapg='sudo apt upgrade'
 alias cpconfs='~/InstallScripts/ForVM/CopyConfigs.sh'
 alias iconda='~/miniconda3/bin/conda init bash'
 alias sbrc='source .bashrc'
+alias ebrc='nano .bashrc'
 
 
 # btop
